@@ -1,0 +1,150 @@
+.GridContainer{
+	display:grid;
+}
+
+.GridContainer[class*="One Wide"]{
+	grid-template-columns: repeat(1,1fr);
+}
+
+.GridContainer[class*="Two Wide"].Even{
+	grid-template-columns: repeat(2,1fr);
+}
+
+.GridContainer[class*="Two Wide"]{
+	grid-template-columns: repeat(2,auto);
+}
+
+.GridContainer[class*="Three Wide"].Even{
+	grid-template-columns: repeat(3,1fr);
+}
+
+.GridContainer[class*="Three Wide"]{
+	grid-template-columns: repeat(3,auto);
+}
+
+.GridContainer[class*="Four Wide"].Even{
+	grid-template-columns: repeat(4,1fr);
+}
+
+.GridContainer[class*="Four Wide"]{
+	grid-template-columns: repeat(4,auto);
+}
+
+.GridContainer[class*="Five Wide"].Even{
+	grid-template-columns: repeat(5,1fr);
+}
+
+.GridContainer[class*="Five Wide"]{
+	grid-template-columns: repeat(5,auto);
+}
+
+.GridContainer[class*="Six Wide"].Even{
+	grid-template-columns: repeat(6,1fr);
+}
+
+.GridContainer[class*="Six Wide"]{
+	grid-template-columns: repeat(6,auto);
+}
+
+.GridContainer[class*="One Tall"]{
+	grid-template-rows: repeat(1,1fr);
+}
+
+.GridContainer[class*="Two Tall"].Even{
+	grid-template-rows: repeat(2,1fr);
+}
+
+.GridContainer[class*="Two Tall"]{
+	grid-template-rows: repeat(2,auto);
+}
+
+.GridContainer[class*="Three Tall"].Even{
+	grid-template-rows: repeat(3,1fr);
+}
+
+.GridContainer[class*="Three Tall"]{
+	grid-template-rows: repeat(3,auto);
+}
+
+.GridContainer[class*="Four Tall"].Even{
+	grid-template-rows: repeat(4,1fr);
+}
+
+.GridContainer[class*="Four Tall"]{
+	grid-template-rows: repeat(4,auto);
+}
+
+.GridContainer[class*="Five Tall"].Even{
+	grid-template-rows: repeat(5,1fr);
+}
+
+.GridContainer[class*="Five Tall"]{
+	grid-template-rows: repeat(5,auto);
+}
+
+.GridContainer[class*="Six Tall"].Even{
+	grid-template-rows: repeat(6,1fr);
+}
+
+.GridContainer[class*="Six Tall"]{
+	grid-template-rows: repeat(6,auto);
+}
+
+.GridContainer [class*="One Column"]{
+	grid-column: span 1;
+}
+
+.GridContainer [class*="Two Column"]{
+	grid-column: span 2;
+}
+
+.GridContainer [class*="Three Column"]{
+	grid-column: span 3;
+}
+
+.GridContainer [class*="Four Column"]{
+	grid-column: span 4;
+}
+
+.GridContainer [class*="Five Column"]{
+	grid-column: span 5;
+}
+
+.GridContainer [class*="Six Column"]{
+	grid-column: span 6;
+}
+
+.GridContainer [class*="One Row"]{
+	grid-row: span 1;
+}
+
+.GridContainer [class*="Two Row"]{
+	grid-row: span 2;
+}
+
+.GridContainer [class*="Three Row"]{
+	grid-row: span 3;
+}
+
+.GridContainer [class*="Four Row"]{
+	grid-row: span 4;
+}
+
+.GridContainer [class*="Five Row"]{
+	grid-row: span 5;
+}
+
+.GridContainer [class*="Six Row"]{
+	grid-row: span 6;
+}
+
+body,#root,.App{
+	width:100vw;
+	height:100vh;
+}
+
+.Container{
+	width:100%;
+	position:relative;
+	height:100%;	
+}
